@@ -1,0 +1,33 @@
+*{ 
+  box-sizing:border-box;
+}
+body{
+  margin: 30px;
+}
+
+.elements { 
+  display: flex;
+ 
+}
+
+.element { 
+ width: 50%;
+}
+
+textarea{ 
+  display: block;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: .25rem;
+}
+
+code { 
+  padding: 2px 4px;
+  font-size: .9em;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
